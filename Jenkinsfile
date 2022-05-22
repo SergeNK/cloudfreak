@@ -21,11 +21,11 @@ pipeline {
          
         stage('Build docker image') {
            steps {
-              # script {         
-              #   def customImage = docker.build('snj01/petclinic', "./docker")
-              #   docker.withRegistry('https://registry.hub.docker.com', 'dockerhub') {
-              #   customImage.push("${env.BUILD_NUMBER}")
-              #   }  
+              // script {         
+              //   def customImage = docker.build('snj01/petclinic', "./docker")
+              //   docker.withRegistry('https://registry.hub.docker.com', 'dockerhub') {
+              //   customImage.push("${env.BUILD_NUMBER}")
+              //   }  
 		  sh 'docker build -t snj01/petclinic ./docker' 
 		  sh 'docker push registry.hub.docker.com/snj01/petclinic'    
            }
