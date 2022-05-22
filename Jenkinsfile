@@ -27,7 +27,7 @@ pipeline {
               //   customImage.push("${env.BUILD_NUMBER}")
               //   }  
   
-                 }      
+              //  }      
 		sh 'docker build -t snj01/petclinic ./docker' 
 		  sh 'docker push registry.hub.docker.com/snj01/petclinic'  
 		
