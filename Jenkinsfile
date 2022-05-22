@@ -29,8 +29,8 @@ pipeline {
   
               //  }      
 		sh 'docker build -t snj01/petclinic ./docker' 
-		sh 'docker tag snj01/petclinic snj01/petclinic:2'
-		sh 'docker push snj01/petclinic:2'  
+		sh 'docker tag snj01/petclinic registry.hub.docker.com/snj01/petclinic:3'
+		sh 'docker push registry.hub.docker.com/snj01/petclinic:3'  
 		
         }
 	  }
