@@ -8,7 +8,7 @@ pipeline {
         stage('Build maven ') {
             steps { 
                     sh 'pwd'      
-                    sh 'mvn deploy'
+                    sh 'mvn -X deploy'
             }
         }
         
