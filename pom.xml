@@ -238,6 +238,7 @@
   </licenses>
 
   <repositories>
+    <!-- Spring Boot Actuator displays build-related information
     <repository>
       <id>spring-snapshots</id>
       <name>Spring Snapshots</name>
@@ -246,6 +247,7 @@
         <enabled>true</enabled>
       </snapshots>
     </repository>
+    -->
     <repository>
       <id>spring-milestones</id>
       <name>Spring Milestones</name>
