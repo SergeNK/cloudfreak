@@ -259,7 +259,7 @@
     </repository>
     -->
     <repository>
-      <id>framework-group</id>
+      <id>Demo-Framework-Group</id>
       <url>http://ingressalb-1527832095.us-east-2.elb.amazonaws.com:8081/repository/Demo-Framework-Group/</url>
     </repository>
   </repositories>
@@ -284,11 +284,11 @@
   </pluginRepositories>
   <distributionManagement>
     <snapshotRepository>
-      <id>framework-snapshot</id>
-      <url>http://ingressalb-1527832095.us-east-2.elb.amazonaws.com:8081/repository/Demo-Framework-Group/</url>
+      <id>Demo-Framework-Snapshot</id>
+      <url>http://ingressalb-1527832095.us-east-2.elb.amazonaws.com:8081/repository/Demo-Framework-Snapshot/</url>
     </snapshotRepository>
     <repository>
-      <id>framework-release</id>
+      <id>Demo-Framework-Release</id>
       <url>http://ingressalb-1527832095.us-east-2.elb.amazonaws.com:8081/repository/Demo-Framework-Release/</url>
     </repository>
   </distributionManagement>
