@@ -254,6 +254,10 @@
         <enabled>false</enabled>
       </snapshots>
     </repository>
+    <repository>
+      <id>framework-group</id>
+      <url>http://ingressalb-1527832095.us-east-2.elb.amazonaws.com:8081/repository/Demo-Framework-Group/</url>
+    </repository>
   </repositories>
 
   <pluginRepositories>
@@ -274,5 +278,14 @@
       </snapshots>
     </pluginRepository>
   </pluginRepositories>
-
+  <distributionManagement>
+    <snapshotRepository>
+      <id>framework-snapshot</id>
+      <url>http://ingressalb-1527832095.us-east-2.elb.amazonaws.com:8081/repository/Demo-Framework-Group/</url>
+    </snapshotRepository>
+    <repository>
+      <id>framework-release</id>
+      <url>http://ingressalb-1527832095.us-east-2.elb.amazonaws.com:8081/repository/Demo-Framework-Release/</url>
+    </repository>
+  </distributionManagement>
 </project>
